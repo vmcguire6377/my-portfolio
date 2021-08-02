@@ -1,0 +1,285 @@
+body {
+   
+    padding: 20px;
+    background: linear-gradient(to bottom right, rgb(48, 46, 46), white);
+}
+.challenges {
+    width: 300px;
+    height: 250px;
+    padding: 10px 50px 10 50px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border-style: solid;
+    border-width: 6px;
+    border-color:rgb(20, 70, 70) ;   
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+  header {
+    padding: 5px 15px 15px 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+    border-style:groove;
+    border-width: 15px;
+    border-radius: 10px;    
+    align-items: flex-start;    
+    height: 450px;
+    
+  }
+ nav nav-tabs {
+      padding: 5px 15px 15px 35px;
+      justify-content: space-between;
+  }
+h1 {
+font-size: 20px; 
+    color: black;
+    font-weight: bolder;
+}
+
+h1 p {
+    font-size: 24px; 
+    color: black;
+    font-weight: bolder; 
+    justify-content: center;
+}
+   
+  p {
+    justify-content: right;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100%;
+  }
+  
+
+  footer {
+    padding: 20px;
+    height: 45px;
+     display: flex; 
+    align-items: center; 
+    justify-content: center; 
+
+  }
+
+  header li {
+    text-align: right;
+  }
+  
+   ul {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    font-weight: bold;
+  
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    text-decoration: solid underline;
+    text-align:justify;
+    padding: 10px 10px 10px 10px;
+    
+  }
+  header nav ul li {
+    margin: 10px 15px 10px 10px;
+    color: rgb(240, 232, 232);
+    font-size: 1.05vw;
+    justify-content: space-between;
+    
+  }
+
+  ul li:hover{
+    background: rgb(20, 70, 70);   
+    color: rgb(240, 232, 232);
+    text-shadow: gray;
+    border-radius: 5px;
+    
+  }
+
+  a {
+color: rgb(240, 232, 232);
+font-size: 18px;
+padding: 10px 10px 10px 10px;
+margin: 10px 15px 10px 10px;
+  }
+  article {
+      font-size: 24px;
+      color: black;
+      font-weight:bolder;
+  }
+  
+  #resume{
+    color: rgb(20, 70, 70 );
+  }
+
+  .desc {
+    font-size: 22px;
+    border: 6px solid rgb(20, 70, 70);
+    border-radius: 15px;
+    padding: 0px 30px 20px 20px;
+    margin-top: -290px;
+    flex-wrap: wrap;
+    
+
+  }
+
+  .projectcontainer{
+    width:20%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border-style: solid;
+    border-color:rgb(20, 70, 70) ;
+    border-radius: 25px;   
+   
+     }
+  
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(240, 232, 232);
+  margin: 10px 15px 10px 10px;
+  padding: 10px 15px 10px 10px;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width:500px){
+   #navtabs{
+     font-size:09px;
+   }
+   #headername{
+    font-size:20px;
+  }
+  #link{
+    font-size:10px;
+    padding-bottom: 20px;
+  }
+
+
+}
+
+
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+  @media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+     
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+     
+    }
+  
+    footer h2 {
+      text-align: center;
+      width: 100%;
+    }
+    
+    
+  }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+      .container h2 {
+        flex: 1 100%;
+        text-align: center;
+      }
+    
+      .projectcontainer p {
+        flex: 2 100%;
+        text-align: center;
+        justify-content: center;
+      }
+    
+      
+         
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+   
+    .section-title {
+      width: 95%;
+    }
+  
+    .container {
+      flex: 0 100%;
+    }
+  
+    .container h2 {
+      text-align: center;
+    }
+  
+    #contact-me p {
+       text-align: center;
+    }
+ 
+    #resume p {
+      text-align: center;
+   }
+    .challenges {
+      text-align: center;
+    }
+  
+  }
