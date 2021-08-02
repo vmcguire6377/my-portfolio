@@ -6,7 +6,7 @@ function NavTabs(props) {
   return (
     <header style={{
       backgroundImage: `url(https://i.imgur.com/bPIJZu6.jpg)`
-    }} className="container">
+    }} >
     <ul className="nav nav-tabs">
       {tabs.map(tab => (
         <li className="nav-item" key={tab}>
@@ -25,6 +25,8 @@ function NavTabs(props) {
       ))}
     </ul>
     </header>
+
+ 
   );
 
           }

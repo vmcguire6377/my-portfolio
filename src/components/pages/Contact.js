@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { emailValidation } from '../../utils/helpers';
-
+import linkedin from '../../img/linkedin.png';
+import github from '../../img/github.png';
+import stack from '../../img/stack.png';
 function Contacts() {
 const [formsState, setFormsState] = useState({ name: '', email: '', message: '' });
 const [errMsg, setErrMsg] = useState('');
@@ -31,8 +33,9 @@ function updateSubmit(evt) {
 return (
 
 <section className="container">
-    <h1>Contact Me</h1>
-    <form className="justify-content-left"
+    <h2>Contact Me</h2>
+    <br></br>
+    <form className="justify-content-center"
     id="contact-page">
       <div className="my-5">
         <label htmlFor="name">Your Name: </label>
@@ -40,15 +43,15 @@ return (
         type="text" name="name"
         defaultValue={name} onBlur={Update} />
       </div>
-      <br></br>
+      
 
       <div className="my-5">
         <label htmlFor="name">Email Address: </label>
         <input className="forms-monitor"
-        type="text" name="name"
+        type="text" name="email"
         defaultValue={email} onBlur={Update} />
       </div>
-      <br></br>
+      
 
       <div className="my-5">
         <label htmlFor="message">Message: </label> <br></br>
@@ -69,12 +72,36 @@ return (
 
 </form>
 
-<h3>Linked In Profile: 
-  <a href="https://linkedin.com/in/vanessa-mcguire-70927a1ba">https://linkedin.com/in/vanessa-mcguire-70927a1ba</a>
-GitHub Profile:
-<a href="https://github.com/vmcguire6377">https://github.com/vmcguire6377</a>
-</h3>
+
+
+<div className="container">
+  
+
+  <br></br>
+      <article>Please visit my pages on LinkedIn, GitHub, and Stack Overflow via the icons.➡️</article>
+      <br></br>
+      <br></br>
+        <a href="https://linkedin.com/in/vanessa-mcguire-70927a1ba">
+          <a className="text-center" href="https://linkedin.com/in/vanessa-mcguire-70927a1ba"></a>
+            <img src={linkedin} style= {{width: "80%", height: "20%" }} className="challenges2" alt="linkedin"></img>
+
+</a>
+
+
+        <a href="https://github.com/vmcguire6377/">
+          <a className="text-center" href="https://github.com/vmcguire6377/"></a>
+            <img src={github} style= {{width: "80%", height: "20%" }}  className="challenges2" alt="github"></img>
+            </a>
+
+            <a href="https://stackexchange.com/users/22365333/vanessa-mcguire">
+          <a className="text-center" href="https://stackexchange.com/users/22365333/vanessa-mcguire"></a>
+            <img src={stack} style= {{width: "80%", height: "20%" }}  className="challenges2" alt="stack"></img>
+            </a>
+</div>
+
 </section>
+
+
 
 );
 }
