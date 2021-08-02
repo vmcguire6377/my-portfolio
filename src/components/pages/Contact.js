@@ -31,20 +31,29 @@ function updateSubmit(evt) {
 return (
 
 <section className="container">
-    <h1>Contact Page</h1>
+    <h1>Contact Me</h1>
     <form className="justify-content-left"
     id="contact-page">
       <div className="my-5">
-        <label htmlFor="name">Name: </label>
+        <label htmlFor="name">Your Name: </label>
         <input className="forms-monitor"
         type="text" name="name"
         defaultValue={name} onBlur={Update} />
       </div>
+      <br></br>
 
       <div className="my-5">
-        <label htmlFor="message">Message: </label>
+        <label htmlFor="name">Email Address: </label>
+        <input className="forms-monitor"
+        type="text" name="name"
+        defaultValue={email} onBlur={Update} />
+      </div>
+      <br></br>
+
+      <div className="my-5">
+        <label htmlFor="message">Message: </label> <br></br>
         <textarea className="formsMonitor" name="message"
-        defaultValue={message} onBlulr={Update} rows="7" />
+        defaultValue={message} onBlur={Update} rows="7" />
       </div>
 {errMsg && (
   <div>
@@ -60,6 +69,11 @@ return (
 
 </form>
 
+<h3>Linked In Profile: 
+  <a href="https://linkedin.com/in/vanessa-mcguire-70927a1ba">https://linkedin.com/in/vanessa-mcguire-70927a1ba</a>
+GitHub Profile:
+<a href="https://github.com/vmcguire6377">https://github.com/vmcguire6377</a>
+</h3>
 </section>
 
 );
