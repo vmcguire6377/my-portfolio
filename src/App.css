@@ -189,7 +189,7 @@ margin: 10px 15px 10px 10px;
 
 @media screen and (max-width:500px){
    #navtabs{
-     font-size:09px;
+     font-size:10px;
    }
    #headername{
     font-size:20px;
@@ -249,11 +249,7 @@ margin: 10px 15px 10px 10px;
       .desc {
         width: 80%;
       }
-      .container p {
-        flex: 2 100%;
-        text-align: center;
-        justify-content: center;
-      }
+    
   }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -265,6 +261,7 @@ margin: 10px 15px 10px 10px;
   
     .desc {
       width: 50%;
+      flex: 0 100%;
     }
     .container {
       flex: 0 100%;
@@ -281,9 +278,15 @@ margin: 10px 15px 10px 10px;
     .resume  {
       text-align: center;
    }
+   .about {
+     text-align: center;
+   }
     img  {
       width: 20%;
       text-align: center;
+    }
+    my-5 {
+      flex: 0 100%;
     }
   
   }
