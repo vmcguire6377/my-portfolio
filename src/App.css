@@ -189,7 +189,7 @@ margin: 10px 15px 10px 10px;
 
 @media screen and (max-width:500px){
    #navtabs{
-     font-size:09px;
+     font-size:10px;
    }
    #headername{
     font-size:20px;
@@ -211,24 +211,28 @@ margin: 10px 15px 10px 10px;
       position: relative;
     }
   
-    header h1 {
+     h1 {
       width: 100%;
-      text-align: center8uj;
+      text-align: center;
      
     }
+    h2 {
+      width: 80%;
+      text-align: center;
+    }
   
-    header nav ul {
+     nav ul {
       margin-top: 20px;
       width: 100%;
       justify-content: center;
     }
   
-    header nav ul li a {
+     nav ul li a {
       font-size: 20px;
      
     }
   
-    footer h5 {
+    footer h2 {
       text-align: center;
       width: 100%;
     }
@@ -241,45 +245,87 @@ margin: 10px 15px 10px 10px;
     section {
       padding: 30px 15px;
     }
-      .container h2 {
+      .content h2 {
         flex: 1 100%;
         text-align: center;
       }
     
-      .container p {
-        flex: 2 100%;
-        text-align: center;
-        justify-content: center;
+      .desc {
+        font-size: 20px;
+        flex: 1 100%;
+      }
+      
+      .my-5 img {
+        flex: 1 70%;
+      }
+
+      footer {
+        flex: 0 100%;
+      }
+
+      .desc p {
+        font-size: 20px;
+        flex: 1 100%;
       }
     
-      
-         
   }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
    
-    .section-title {
-      width: 95%;
-    }
-  
-    .container {
+    content {
       flex: 0 100%;
     }
-  
+  .container img {
+    flex: 1 70%;
+  }
+  a {
+    flex: 1 70%;;
+  }
+    .desc {
+      width: 90%;
+      flex: 1 100%;
+      font-size: 18px;
+      margin-top: -110px;
+      margin-right: 50px;
+    }
+    .desc img {
+      width: 15%;
+    }
     .container h2 {
-      text-align: center;
+      flex: 0 100%;
+    }
+
+    .my-5 {
+      width: 60%;
+      flex: 1 100%;
+      font-size: 18px;
+      margin-top: -110px;
+      margin-right: -5px;
+    }
+
+    .content {
+      flex: 0 100%;
+    }
+
+    #contact-page {
+      flex: 0 50%;
     }
   
-    #contact-me p {
+    .contact {
        text-align: center;
     }
  
-    #resume p {
+    .resume  {
       text-align: center;
    }
-    .challenges {
-      text-align: center;
-    }
+   .about {
+     text-align: center;
+   }
+  
+
+  
+
+   
   
   }
