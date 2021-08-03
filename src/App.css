@@ -189,7 +189,7 @@ margin: 10px 15px 10px 10px;
 
 @media screen and (max-width:500px){
    #navtabs{
-     font-size:09px;
+     font-size:10px;
    }
    #headername{
     font-size:20px;
@@ -213,7 +213,7 @@ margin: 10px 15px 10px 10px;
   
     header h1 {
       width: 100%;
-      text-align: center8uj;
+      text-align: center;
      
     }
   
@@ -228,7 +228,7 @@ margin: 10px 15px 10px 10px;
      
     }
   
-    footer h5 {
+    footer h2 {
       text-align: center;
       width: 100%;
     }
@@ -246,14 +246,10 @@ margin: 10px 15px 10px 10px;
         text-align: center;
       }
     
-      .container p {
-        flex: 2 100%;
-        text-align: center;
-        justify-content: center;
+      .desc {
+        width: 80%;
       }
     
-      
-         
   }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -263,6 +259,10 @@ margin: 10px 15px 10px 10px;
       width: 95%;
     }
   
+    .desc {
+      width: 50%;
+      flex: 0 100%;
+    }
     .container {
       flex: 0 100%;
     }
@@ -271,15 +271,22 @@ margin: 10px 15px 10px 10px;
       text-align: center;
     }
   
-    #contact-me p {
+    .contact {
        text-align: center;
     }
  
-    #resume p {
+    .resume  {
       text-align: center;
    }
-    .challenges {
+   .about {
+     text-align: center;
+   }
+    img  {
+      width: 20%;
       text-align: center;
+    }
+    my-5 {
+      flex: 0 100%;
     }
   
   }
