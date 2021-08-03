@@ -22,8 +22,9 @@ const Resume = () => (
      </h3>
   
   <br></br>
-  <a href="https://drive.google.com/file/d/1b4VoZSEQccyV_Aphv_FWDttNJBwldh0e/view?usp=sharing">Professional Resume</a>
-</section>
+  <a href="https://drive.google.com/file/d/1b4VoZSEQccyV_Aphv_FWDttNJBwldh0e/view?usp=sharing">
+  <img src={resume} style= {{width: "15%", height: "8%" }} alt="resume icon"></img>
+  </a>
 
 );
 export default Resume;
