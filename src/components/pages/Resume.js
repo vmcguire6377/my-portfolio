@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../../img/resume.png"
 
 const Resume = () => (
   
@@ -18,11 +19,13 @@ const Resume = () => (
      jest, Insomnia, MySQL, Sequelize, Cloudinary, 
      and PWAs.
      <br></br>
-     Please feel free to view or download my resume via the link below.
+     Please click the icon below to view or download my resume.
      </h3>
   
   <br></br>
-  <a href="https://drive.google.com/file/d/1b4VoZSEQccyV_Aphv_FWDttNJBwldh0e/view?usp=sharing">Professional Resume</a>
+  <a href="https://drive.google.com/file/d/1b4VoZSEQccyV_Aphv_FWDttNJBwldh0e/view?usp=sharing">
+  <img src={resume} style= {{width: "15%", height: "8%" }} alt="resume icon"></img>
+  </a>
 </section>
 
 );
