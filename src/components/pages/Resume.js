@@ -18,7 +18,7 @@ const Resume = () => (
      jest, Insomnia, MySQL, Sequelize, Cloudinary, 
      and PWAs.
      <br></br>
-     Please feel free to view or download my resume via the link below.
+     Please click the icon below to view or download my resume.
      </h3>
   
   <br></br>
