@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../../img/resume.png"
 
 const Resume = () => (
   
