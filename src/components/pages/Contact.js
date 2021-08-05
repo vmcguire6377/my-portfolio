@@ -32,7 +32,7 @@ function updateSubmit(evt) {
 }
 return (
 
-<section className="container">
+<section className="container2">
     <h2>Contact Me</h2>
     <br></br>
     <form className="justify-content-center"
