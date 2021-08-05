@@ -283,17 +283,17 @@ margin: 10px 15px 10px 10px;
     flex: 1 70%;;
   }
     .desc {
-      width: 90%;
+      width: 80%;
       flex: 1 100%;
       font-size: 18px;
-      margin-top: -110px;
+      margin-top: -80px;
       margin-right: 50px;
     }
     .desc img {
       width: 15%;
     }
-    .container h2 {
-      flex: 0 100%;
+    .container2 {
+      width: 90%;
     }
 
     .my-5 {
@@ -322,10 +322,4 @@ margin: 10px 15px 10px 10px;
    .about {
      text-align: center;
    }
-  
-
-  
-
-   
-  
-  }
+}
