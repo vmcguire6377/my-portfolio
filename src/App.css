@@ -16,7 +16,7 @@ body {
     border-width: 15px;
     border-radius: 10px;    
     align-items: flex-start;    
-    height: 450px;
+    height: 500px;
 }
 
 .challenges {
@@ -131,7 +131,7 @@ margin: 10px 15px 10px 10px;
   
   .container2 img {
     width: 30%;
-      margin-left: 200px;
+    margin-left: 200px;
   }
 .resume h3 {
   font-size: 18px;
@@ -145,9 +145,12 @@ margin: 10px 15px 10px 10px;
     padding: 0px 30px 20px 20px;
     margin-top: -340px;
     flex-wrap: wrap;
-    
+}
 
-  } 
+.justify-content-center {
+  justify-content:right;
+  font-size: 20px;
+}
   
 .App {
   text-align: center;
@@ -158,11 +161,6 @@ margin: 10px 15px 10px 10px;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
