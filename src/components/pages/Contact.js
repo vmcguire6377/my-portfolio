@@ -78,7 +78,7 @@ return (
   
 
   <br></br>
-      <article>Please visit my pages on LinkedIn, GitHub, and Stack Overflow via the icons.➡️</article>
+      <article>Please visit my pages on LinkedIn, GitHub, and Stack Overflow via the icons.➡🔽</article>
       <br></br>
       <br></br>
         <a href="https://linkedin.com/in/vanessa-mcguire-70927a1ba">
