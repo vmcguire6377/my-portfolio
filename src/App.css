@@ -138,12 +138,12 @@ margin: 10px 15px 10px 10px;
 }
 
   .desc {
-    font-size: 18px;
+    font-size: 22px;
     border: 10px solid rgb(20, 70, 70);
     border-radius: 15px;
     border-style: groove;
     padding: 0px 30px 20px 20px;
-    margin-top: -340px;
+    margin-top: -420px;
     flex-wrap: wrap;
 }
 
@@ -178,6 +178,10 @@ margin: 10px 15px 10px 10px;
 
 .App-link {
   color: #61dafb;
+}
+
+#contact-page {
+  margin-top: -225px;
 }
 
 @keyframes App-logo-spin {
@@ -289,24 +293,32 @@ margin: 10px 15px 10px 10px;
     flex: 1 70%;;
   }
     .desc {
-      width: 80%;
+      width: 100%;
       flex: 1 100%;
       font-size: 18px;
-      margin-top: -80px;
-      margin-right: 50px;
+      margin-top: -60px;
+      margin-left: 0px;
     }
-    .desc img {
+     img {
       width: 15%;
+      margin-left: -40px;
+      margin-top: -110px;
+      margin-bottom: 120px;
     }
     .container2 {
       width: 90%;
+      
     }
 
+    .container2 img {
+      margin-top:45px;
+      flex: 1 100%;
+    }
     .my-5 {
       width: 60%;
       flex: 1 100%;
       font-size: 18px;
-      margin-top: -110px;
+      margin-top: -310px;
       margin-right: -5px;
     }
 
@@ -316,6 +328,8 @@ margin: 10px 15px 10px 10px;
 
     #contact-page {
       flex: 0 50%;
+      margin-top: -650px;
+      
     }
   
     .contact {
@@ -324,6 +338,11 @@ margin: 10px 15px 10px 10px;
  
     .resume  {
       text-align: center;
+   }
+
+   .resume img {
+     margin-top: 40px;
+     margin-left: 20px;
    }
    .about {
      text-align: center;
