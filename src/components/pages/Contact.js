@@ -33,7 +33,7 @@ function updateSubmit(evt) {
 return (
 
 <section className="container2">
-    <h2>Contact Me</h2>
+    <h2>Contact Me: ❧ 406.207.7382 ❧ vmcguire6377@gmail.com ❧ </h2>
     <br></br>
     <form className="justify-content-center"
     id="contact-page">
