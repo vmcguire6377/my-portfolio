@@ -36,21 +36,21 @@ function Contacts() {
       <br></br>
       <h3>  Contact Me: ❧ 406.207.7382 ❧ vmcguire6377@gmail.com ❧ Visit my professional pages via the icons below ❧ <br></br> <br></br><a href="https://linkedin.com/in/vanessa-mcguire-70927a1ba">
         <a className="text-center" href="https://linkedin.com/in/vanessa-mcguire-70927a1ba"></a>
-        <img src={linkedin} style={{ width: "5%", height: "10%" }} className="challenges2" alt="linkedin"></img>
+        <img src={linkedin} style={{ width: "10%", height: "10%" }} className="challenges2" alt="linkedin"></img>
 
       </a>
 
 
         <a href="https://github.com/vmcguire6377/">
           <a className="text-center" href="https://github.com/vmcguire6377/"></a>
-          <img src={github} style={{ width: "5%", height: "10%" }} className="challenges2" alt="github"></img>
+          <img src={github} style={{ width: "10%", height: "10%" }} className="challenges2" alt="github"></img>
         </a>
 
         <a href="https://stackexchange.com/users/22365333/vanessa-mcguire">
           <a className="text-center" href="https://stackexchange.com/users/22365333/vanessa-mcguire"></a>
-          <img src={stack} style={{ width: "5%", height: "10%" }} className="challenges2" alt="stack"></img>
+          <img src={stack} style={{ width: "13%", height: "10%" }} className="challenges2" alt="stack"></img>
         </a></h3>
-      <br></br>
+      
 
       <form className="justify-content-center"
         id="contact-page">
