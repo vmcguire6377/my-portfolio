@@ -27,5 +27,11 @@ const Resume = () => (
   <img src={resume} style= {{width: "15%", height: "8%" }} alt="resume icon"></img>
   </a>
 
+<h3>Please click the icon below to access class forms.</h3>
+  <a href="https://drive.google.com/drive/folders/1dtXlExKC1DHkIQfHe58FKG4LkPbine56?ths=true">
+  <img src={forms_1} style= {{width: "15%", height: "8%" }} alt="resume icon"></img>
+  </a>
+</section>
+
 );
 export default Resume;
