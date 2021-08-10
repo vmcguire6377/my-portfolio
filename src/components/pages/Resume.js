@@ -1,5 +1,6 @@
 import React from "react";
 import resume from "../../img/resume.png"
+import form_1 from "../../img/form_1.png"
 
 const Resume = () => (
   
