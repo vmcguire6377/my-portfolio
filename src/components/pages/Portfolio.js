@@ -6,7 +6,7 @@ import artinerary from "../../img/artinerary.PNG";
 import mood from "../../img/mood.PNG";
 import budget from "../../img/budget.PNG";
 import rock from "../../img/rock.PNG";
-//import passgen from "../../img/passgen.PNG";
+import passgen from "../../img/passgen.PNG";
 import taskinator from "../../img/taskinator.PNG";
 import weather from "../../img/weather.PNG";
 
@@ -103,6 +103,18 @@ const Portfolio = () => (
             className="challenges" /></a>
       </div>
 </div>
+
+  <br>
+      </br>
+      <div className="col-sm">
+
+        <article>Password Generator</article>
+        <a href="https://vmcguire6377.github.io/passwordgenerator" >
+          <a className="text-center" href="https://github.com/vmcguire6377/passwordgenerator">Github Link</a>
+          <br></br>
+          <img src={passgen} alt="project example"
+            className="challenges" /></a>
+      </div>
 
       <br>
       </br>
