@@ -81,14 +81,16 @@ const Portfolio = () => (
 
       <br>
       </br>
-      <div className="col-sm">
+      <div className="row">
+        <div className="col-sm">
 
-        <article>Password Generator</article>
-        <a href="https://vmcguire6377.github.io/passwordgenerator" >
-          <a href="https://github.com/vmcguire6377/passwordgenerator">Github Link</a>
-          <br></br>
-          <img src={passgen} alt="project example"
+       <article>Weather Dashboard</article>
+        <a href="https://vmcguire6377.github.io/weatherdashboard">
+        <a href<a className="text-center href"="https://github.com/vmcguire6377/weatherdashboard">Github Link</a>
+        <br></br>
+          <img src={weather} alt="project example"
             className="challenges" /></a>
+      </div>
 
 
       </div>
@@ -103,20 +105,8 @@ const Portfolio = () => (
           <img src={taskinator} alt="project example"
             className="challenges" /></a>
       </div>
-      <br>
-      </br>
-      <div className="col-sm">
-
-        <article>Weather Dashboard</article>
-<a href="https://vmcguire6377.github.io/weatherdashboard">
-        <a href="https://github.com/vmcguire6377/weatherdashboard">Github Link</a>
- <br></br>
-          <img src={weather} alt="project example"
-            className="challenges" /></a>
-      </div>
-
-
-    </div>
+     
+ </div>
 
 </section >
 );
