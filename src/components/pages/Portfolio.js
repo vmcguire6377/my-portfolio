@@ -5,16 +5,11 @@ import Capture from "../../img/Capture.PNG";
 import artinerary from "../../img/artinerary.PNG";
 import mood from "../../img/mood.PNG";
 import rock from "../../img/rock.PNG";
-import passgen from "../../img/passgen.PNG";
+//import passgen from "../../img/passgen.PNG";
 import taskinator from "../../img/taskinator.PNG";
-import weather from "../../img/weather.PNG;
-
-
-
-
+import weather from "../../img/weather.PNG";
 
 const Portfolio = () => (
-
   <section id="challenges">
     <div className="row"></div>
 
@@ -81,26 +76,24 @@ const Portfolio = () => (
 
       <br>
       </br>
-      <div className="row">
+      
         <div className="col-sm">
 
        <article>Weather Dashboard</article>
         <a href="https://vmcguire6377.github.io/weatherdashboard">
-        <a href<a className="text-center href"="https://github.com/vmcguire6377/weatherdashboard">Github Link</a>
+        <a className="text-center" href="https://github.com/vmcguire6377/weatherdashboard">Github Link</a>
         <br></br>
           <img src={weather} alt="project example"
             className="challenges" /></a>
       </div>
 
-
-      </div>
       <br>
       </br>
       <div className="col-sm">
 
         <article>Taskinator</article>
         <a href="https://vmcguire6377.github.io/taskinator" >
-          <a href="https://github.com/vmcguire6377/taskinator">Github Link</a>
+          <a className="text-center" href="https://github.com/vmcguire6377/taskinator">Github Link</a>
           <br></br>
           <img src={taskinator} alt="project example"
             className="challenges" /></a>
