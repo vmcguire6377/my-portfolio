@@ -7,6 +7,7 @@ import mood from "../../img/mood.PNG";
 import rock from "../../img/rock.PNG";
 import passgen from "../../img/passgen.PNG";
 import taskinator from "../../img/taskinator.PNG";
+import weather from "../../img/weather.png;
 
 
 
@@ -102,17 +103,22 @@ const Portfolio = () => (
           <img src={taskinator} alt="project example"
             className="challenges" /></a>
       </div>
+      <br>
+      </br>
+      <div className="col-sm">
+
+        <article>Weather Dashboard</article>
+<a href="https://vmcguire6377.github.io/weatherdashboard">
+        <a href="https://github.com/vmcguire6377/weatherdashboard">Github Link</a>
+ <br></br>
+          <img src={weather} alt="project example"
+            className="challenges" /></a>
+      </div>
+
 
     </div>
 
-
-
-
-
-
-
-
-  </section >
+</section >
 );
 
 
