@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Capture from "../../img/Capture.PNG";
 import artinerary from "../../img/artinerary.PNG";
 import mood from "../../img/mood.PNG";
-import budget from "../../img/budget.PNG;
+import budget from "../../img/budget.PNG";
 import rock from "../../img/rock.PNG";
 //import passgen from "../../img/passgen.PNG";
 import taskinator from "../../img/taskinator.PNG";
