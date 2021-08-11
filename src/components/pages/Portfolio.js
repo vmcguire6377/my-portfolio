@@ -102,6 +102,7 @@ const Portfolio = () => (
           <img src={weather} alt="project example"
             className="challenges" /></a>
       </div>
+</div>
 
       <br>
       </br>
