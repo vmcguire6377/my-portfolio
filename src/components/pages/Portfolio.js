@@ -7,7 +7,7 @@ import mood from "../../img/mood.PNG";
 import rock from "../../img/rock.PNG";
 import passgen from "../../img/passgen.PNG";
 import taskinator from "../../img/taskinator.PNG";
-import weather from "../../img/weather.png;
+import weather from "../../img/weather.PNG;
 
 
 
