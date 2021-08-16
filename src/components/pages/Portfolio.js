@@ -9,6 +9,7 @@ import rock from "../../img/rock.PNG";
 import passgen from "../../img/passgen.PNG";
 import taskinator from "../../img/taskinator.PNG";
 import weather from "../../img/weather.PNG";
+import tah from "../../img/tah.PNG";
 
 const Portfolio = () => (
   <section id="challenges">
@@ -42,6 +43,20 @@ const Portfolio = () => (
           <a className="text-center" href="https://github.com/Kwerrell73/mood-boost">Github Link</a>
           <br></br>
           <img src={mood} alt="project example"
+            className="challenges" /></a>
+      </div>
+
+
+      <br>
+      </br>
+
+      <div className="col-sm">
+
+        <article>Teaching Artist Hub</article>
+        <a href="https://LindseyKrause.github.io/Teaching-Artist-Hub" >
+          <a className="text-center" href="https://github.com/LindseyKrause/Teaching-Artist-Hub">Github Link</a>
+          <br></br>
+          <img src={tah} alt="project example"
             className="challenges" /></a>
       </div>
 
@@ -102,9 +117,9 @@ const Portfolio = () => (
           <img src={weather} alt="project example"
             className="challenges" /></a>
       </div>
-</div>
+      </div>
 
-  <br>
+      <br>
       </br>
       <div className="col-sm">
 
