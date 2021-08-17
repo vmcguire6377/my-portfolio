@@ -53,7 +53,7 @@ const Portfolio = () => (
       <div className="col-sm">
 
         <article>Teaching Artist Hub</article>
-        <a href="https://LindseyKrause.github.io/Teaching-Artist-Hub" >
+        <a href="https://teaching-artist-hub.herokuapp.com/">
           <a className="text-center" href="https://github.com/LindseyKrause/Teaching-Artist-Hub">Github Link</a>
           <br></br>
           <img src={tah} alt="project example"
